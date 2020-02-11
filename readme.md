@@ -4,9 +4,7 @@ a w cenie obliczonej wg składników
 -> więc w menu została przyjęta cena obliczona składnikami.
 
 
-#POLECENIE:
-
-# Szablon projektu na konkurs orginizowany przez PSI.
+# POLECENIE: Szablon projektu na konkurs orginizowany przez PSI.
 
 ## Potrzebujesz:
 ### Java 11 np:
