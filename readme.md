@@ -1,4 +1,7 @@
-## Moje rozwiazanie, drobne różnice w cenie z menu a w cenie obliczonej wg składników - więc w menu została przyjęta cena obliczona składnikami.
+## Moje rozwiazanie zadania (polecenie poniżej) 
+Drobne różnice w cenie z menu,
+a w cenie obliczonej wg składników
+-> więc w menu została przyjęta cena obliczona składnikami.
 
 
 #POLECENIE:
