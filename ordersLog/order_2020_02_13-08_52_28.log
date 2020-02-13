@@ -1,0 +1,50 @@
+lut 13, 2020 8:52:36 PM pl.psi.pizza.model.control.OrderCache getSummaryCost
+INFO: Zamowienie za 32,40 zł 
+miejsce dostawy - GRUNDWALD
+Zamowiono: 
+Twoje zamówienie: 
+ - MARGERITTA (cienkie) dod.: 
+ - HAWAJSKA (cienkie) dod.: 
+
+--------------------
+
+lut 13, 2020 8:52:41 PM pl.psi.pizza.model.control.OrderCache getSummaryCost
+INFO: Zamowienie za 18,40 zł 
+miejsce dostawy - GRUNDWALD
+Zamowiono: 
+Twoje zamówienie: 
+ - MARINARA (cienkie) dod.: 
+
+--------------------
+
+lut 13, 2020 8:52:43 PM pl.psi.pizza.model.control.OrderCache getSummaryCost
+INFO: Zamowienie za 20,40 zł 
+miejsce dostawy - GRUNDWALD
+Zamowiono: 
+Twoje zamówienie: 
+ - MARINARA (grube) dod.: 
+
+--------------------
+
+lut 13, 2020 8:52:55 PM pl.psi.pizza.model.control.OrderCache getSummaryCost
+INFO: Zamowienie za 41,90 zł 
+miejsce dostawy - GRUNDWALD
+Zamowiono: 
+Twoje zamówienie: 
+ - FUNGHI (grube) dod.: 
+ - QUATRO (grube) dod.: Pieczarki
+
+--------------------
+
+lut 13, 2020 8:52:59 PM pl.psi.pizza.model.control.OrderCache getSummaryCost
+INFO: Zamowienie za 58,00 zł 
+miejsce dostawy - GRUNDWALD
+Zamowiono: 
+Twoje zamówienie: 
+ - MARGERITTA (cienkie) dod.: 
+ - MARGERITTA (cienkie) dod.: 
+ - MARGERITTA (cienkie) dod.: 
+ - MARGERITTA (cienkie) dod.: 
+
+--------------------
+

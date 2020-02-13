@@ -1,5 +1,6 @@
 package pl.psi.pizza.model.control;
 
+import pl.psi.pizza.logger.OrderLogger;
 import pl.psi.pizza.model.boundary.Delivery;
 import pl.psi.pizza.model.entity.additives.Additive;
 import pl.psi.pizza.model.entity.pizza.Pizza;
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
 public class OrderCache {
 
     private static OrderCache singleOrderCache = null;
+    private OrderLogger logger = new OrderLogger();
 
     private static List<Pizza> pizzas = new ArrayList<>();
     private static List<Additive> activeAdditives = new ArrayList<>();
@@ -33,6 +35,7 @@ public class OrderCache {
 
     public void addPizza(String pizzaName) {
         pizzas.add(PizzaFabric.bakePizza(pizzaName, thickDough, activeAdditives));
+
         summaryOrder = summaryOrder + getValueToSummaryOrder(pizzaName);
     }
 
@@ -57,6 +60,9 @@ public class OrderCache {
         if (student) {
             summaryCost = summaryCost * 0.80;
         }
+
+        logger.getLogger().info(getLoggerMessage());
+
         return String.format("%1.2f", summaryCost);
     }
 
@@ -91,6 +97,12 @@ public class OrderCache {
         pizzas.stream()
                 .map(Pizza::calculatePrice)
                 .forEach(pizzaCost -> summaryCost = summaryCost + pizzaCost);
+    }
+
+    private String getLoggerMessage() {
+        return "Zamowienie za " + String.format("%1.2f", summaryCost) + " zł \n"
+                + "miejsce dostawy - " + deliveryPlace.name() + "\n"
+                + "Zamowiono: \n" + summaryOrder + "\n--------------------\n";
     }
 
     public String getSummaryOrder() {

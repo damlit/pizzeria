@@ -37,7 +37,8 @@ public class MainController {
 
     @FXML
     private void initialize() {
-        orderPriceLabel.setText("Tutaj pojawi się Twoje zamowienie.");
+        orderPriceLabel.setText("Tutaj pojawi sie Twoje zamowienie. \n " +
+                "Zaznacz dodatkowe skladniki przed wybraniem pizzy.");
         delivery.setValue(Delivery.PERSONAL_PICKUP.name());
         pieGroup.selectedToggleProperty().addListener( (e) -> refreshMenu());
         refreshMenu();
