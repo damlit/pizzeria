@@ -1,4 +1,10 @@
-# Szablon projektu na konkurs orginizowany przez PSI.
+## Moje rozwiazanie zadania (polecenie poniżej) 
+Drobne różnice w cenie z menu,
+a w cenie obliczonej wg składników
+-> więc w menu została przyjęta cena obliczona składnikami.
+
+
+# POLECENIE: Szablon projektu na konkurs orginizowany przez PSI.
 
 ## Potrzebujesz:
 ### Java 11 np:
